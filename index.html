@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan - developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(17, 2, 31);
+            color: rgb(235, 240, 245);
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content:space-around;
+            align-items: center ;
+            height: 80px;
+            background-color: rgb(93, 72, 112);
+        }
+        nav ul{
+            display: flex;
+            justify-items: center;
+            
+            
+            
+        }
+        nav ul li {
+            list-style: none;
+            margin: 0 26px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            
+        }
+        nav ul li a:hover{
+color: rgb(228, 226, 226);
+font-size: 1.2rem;
+        }
+        .left{
+            font-size:2 rem;
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+  
+        }
+        main hr{
+            border: 0;
+          
+    background-color: #43435b;
+            height: 1.2px;
+            margin: 20px 30px;
+            
+        }
+        .firstsection >div{
+            width: 30%;
+            margin-top: 10%;
+        }
+        .leftsection{
+            
+            font-size: 2rem;
+            margin-left: 60px;
+            
+        }
+        .rightsection img{
+                width: 70%;
+           }
+           .red{
+            color: red;
+           }
+            #element{
+                color:red;
+            }
+            .textblue{
+                color: rgb(74, 74, 145);
+            }
+             .secondsection{
+                max-width: 80vw;
+                margin: auto;
+                height: 90vh;
+             }   
+            .secondsection h1{
+                font-size: 1.8rem;
+            }
+            .secondsection .box{
+                height: 3px;
+    width: 105%;
+    background-color: white;
+    margin: 40px -10px;
+    display: flex;
+            } 
+            .secondsection .vertical{
+                height: 93px;
+                width: 1px;
+                background-color: white;
+                margin: 0 100px;
+
+            }
+            .img-top{
+              width: 28px;
+              position: relative;
+    top: -25px;
+    left: -10px;
+
+            }
+            .vertical-tittle{    position: relative;
+    top: 65px;
+}
+
+            
+            .vertical-desc{
+               position: relative;
+    top: 70px;
+    color: aliceblue;
+    width: 150px;
+        font-size: 7px;}
+     .footer{
+        display: flex;
+       background-color: #473d3d;
+        height: 236px;
+            justify-content: space-evenly;
+      
+     }
+     .footer-first{
+        margin: 44px;
+     }
+     .footer-second{
+       list-style: none;
+     }
+     .footer ul{
+        list-style: none;
+     }
+    
+     .footer > div{
+        width: 200px;
+     }
+    footer .footer-rights{
+        text-align: center;
+        color: purple;
+     }
+     .leftsection .btn{
+        padding: 12px;
+     }
+     .leftsection .buttons{
+        padding: 22px;
+     }
+   
+
+    </style>
+</head>
+<header>
+    <nav>
+        <div class="left">Aryan's portfolio </div> 
+        <div class="right">
+             <ul>
+                <li><a href="/">home</a></li>
+                <li><a href="/">about</a></li>
+                <li><a href="/">services</a></li>
+                <li><a href="/">projects</a></li>
+                <li><a href="/">contact me</a></li>
+                
+
+             </ul>
+             </div>
+    
+    </nav>
+</header>
+<main>
+    <section class="firstsection">
+        <div class="leftsection"> 
+            Hi, my name is <span class="red">Aryan chaudhary</span>  
+            <div>and i am a passionate</div>
+            <span id="element"></span>
+            <div class="buttons">
+                <button class="btn" onclick="myClick()">Download Resume</button>
+               <a href="https://github.com"> <button class="btn">Visit Github</button></a>
+               
+            </div>
+            <div>
+
+            </div>
+            
+        </div>
+        <div class="rightsection">
+            <img src="b.png.png" alt="">
+        </div>
+  
+    </section>
+    <hr>
+    <section class="secondsection">
+        <span class="textblue">What I have done so far</span>
+        <h1>work experience</h1> 
+        
+        <div class="box">
+            <div class="vertical">
+                <img class="img-top" src="aryan.png" alt="">
+                <div class="vertical-tittle">
+                    html developer 
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fugit maxime, laboriosam adipisci ipsa praesentium necessitatibus, perspiciatis tempora a sequi quod eligendi consequatur soluta aliquam laudantium, sapiente corrupti reprehenderit beatae.
+                </div>
+            </div>
+            <div class="vertical"> <img class="img-top" src="scala.png" alt="">
+                <div class="vertical-tittle">
+                    scala developer
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fugit maxime, laboriosam adipisci ipsa praesentium necessitatibus, perspiciatis tempora a sequi quod eligendi consequatur soluta aliquam laudantium, sapiente corrupti reprehenderit beatae.
+                </div></div>
+            
+            <div class="vertical"> <img class="img-top" src="nodejs.png" alt="">
+                <div class="vertical-tittle">
+                    node js developer 
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fugit maxime, laboriosam adipisci ipsa praesentium necessitatibus, perspiciatis tempora a sequi quod eligendi consequatur soluta aliquam laudantium, sapiente corrupti reprehenderit beatae.
+                </div></div>
+            <div class="vertical"> <img class="img-top" src="java.png" alt="">
+                <div class="vertical-tittle">
+                    java developer 
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fugit maxime, laboriosam adipisci ipsa praesentium necessitatibus, perspiciatis tempora a sequi quod eligendi consequatur soluta aliquam laudantium, sapiente corrupti reprehenderit beatae.
+                </div></div>
+            <div class="vertical"> <img class="img-top" src="reactjs.png" alt="">
+                <div class="vertical-tittle">
+                    react js     developer 
+                </div>
+                <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fugit maxime, laboriosam adipisci ipsa praesentium necessitatibus, perspiciatis tempora a sequi quod eligendi consequatur soluta aliquam laudantium, sapiente corrupti reprehenderit beatae.
+                </div></div>
+           
+
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="footer">
+        <div class="footer-first">
+            <h3>Aryan's developer portfolio</h3>
+        </div>
+         <div class="footer-second">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>services</li>
+                <li>Contact</li>
+            </ul>
+         </div>
+          <div class="footer-third">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>services</li>
+                <li>Contact</li>
+            </ul>
+          </div>
+           <div class="footer-fourth">
+           <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>services</li>
+            <li>Contact</li>
+            </ul>
+        
+    </div>
+    
+</div>
+<div class="footer-rights">
+    www.aryansportfolio.com | All right reserved
+   </div>
+
+</footer>
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['web developer.', 'gymer', 'web designer'],
+      typeSpeed: 50,
+    });
+
+    function myClick(){
+        swal("Here's the title!", "...and here's the text!");
+    }
+  </script>
+</body>
+<body>
+    
+</body>
+</html>
